@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">Battery</string>
+
+    <!-- Scooters map -->
+    <string name="scooters_map_error_loading_item">
+        Error loading scooters
+    </string>
+    <string name="scooters_map_snippet">
+        Model: <xliff:g example="Gogoro 1st edition" id="model">%1$s</xliff:g>,
+        Energy level: <xliff:g example="42" id="numericValue">%2$d</xliff:g>
+    </string>
+    <string name="scooters_map_scooters_shown">
+        <xliff:g example="42 scooters" id="scooters">%s</xliff:g> shown
+    </string>
+
+    <plurals name="scooters_map_scooters">
+        <item quantity="one">one scooter</item>
+        <item quantity="other">
+            <xliff:g example="42" id="count">%d</xliff:g> scooters
+        </item>
+    </plurals>
+
+    <string name="scooters_map_action_update">Update map</string>
+
+</resources>
